@@ -1,0 +1,29 @@
+{
+  "title": "Zombie Survival Journal",
+  "entries": [
+    {
+      "date": "Day 1",
+      "text": "The outbreak started. People are turning into zombies. The city is in chaos."
+    },
+    {
+      "date": "Day 3",
+      "text": "I found an old bunker, but supplies are low. The infected roam the streets."
+    },
+    {
+      "date": "Day 7",
+      "text": "Zombies attacked last night. We barely escaped. We need weapons and a better plan."
+    },
+    {
+      "date": "Day 10",
+      "text": "Rumors of a safe zone near the hills. Must find a way to escape."
+    },
+    {
+      "date": "Day 14",
+      "text": "We lost two members to a bite. Infection spreads fast. No cure in sight."
+    },
+    {
+      "date": "Day 21",
+      "text": "The bunker was compromised. Nowhere is safe. We keep moving. Stay quiet, stay alive."
+    }
+  ]
+}
