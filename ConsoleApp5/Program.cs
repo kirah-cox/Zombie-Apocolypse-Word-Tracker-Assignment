@@ -17,24 +17,23 @@ class Program
 
             foreach (var word in words)
             {
-                //string.Compare(word, word.ToLower(), true);
-                //StringComparer.OrdinalIgnoreCase(word, word.ToLower());
-                //bool areEqual = string.Equals(word, word.ToLower(), StringComparison.OrdinalIgnoreCase);
 
-                if (!keyWords.ContainsKey(word))
+                string fixedWord = word.Replace(',', ' ').Replace('.', ' ').ToLower().Trim();
+
+                if (!keyWords.ContainsKey(fixedWord))
                 {
-                    keyWords.Add(word, 1);
+                    keyWords.Add(fixedWord, 1);
                 }
                 else
                 {
-                    keyWords[word]++;
+                    keyWords[fixedWord]++;
                 }
             }
         }
 
         foreach (var word in keyWords)
         {
-            Console.WriteLine(word.Key + ", " + word.Value);
+            Console.WriteLine(word.Key + " " + word.Value);
         }
     }
 }
